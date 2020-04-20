@@ -484,6 +484,7 @@ namespace ExtUI {
   void onConfigurationStoreWritten(bool) {}
   void onConfigurationStoreRead(bool) {}
   void OnPidTuning(const result_t) {}
+  void onMeshUpdate(const int8_t, const int8_t, const float) {}
 }
 
 #endif // MALYAN_LCD
